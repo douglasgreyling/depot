@@ -20,7 +20,7 @@ class PayTypeSelector extends React.Component {
       PayTypeCustomComponent = CreditCardPayType;
     } else if (this.state.selectedPayType == 'Check') {
       PayTypeCustomComponent = CheckPayType;
-    } else if (this.state.selectedPayType == 'Purchase order') {
+    } else if (this.state.selectedPayType == 'Purchase Order') {
       PayTypeCustomComponent = PurchaseOrderPayType;
     }
 
@@ -32,7 +32,7 @@ class PayTypeSelector extends React.Component {
             <option value="">Select a payment method</option>
             <option value="Check">Check</option>
             <option value="Credit card">Credit card</option>
-            <option value="Purchase order">Purchase order</option>
+            <option value="Purchase Order">Purchase Order</option>
           </select>
         </div>
         <PayTypeCustomComponent />

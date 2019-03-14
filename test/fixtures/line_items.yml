@@ -7,3 +7,7 @@ one:
 two:
   product: two
   order: one
+
+three:
+  product: ruby
+  order: three
